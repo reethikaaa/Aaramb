@@ -1,20 +1,38 @@
 # Aaramb -where ideas meet
-Aarambh is a dynamic platform designed to streamline the organization of seminars, webinars, NCC & NSS camps, conferences, and inter-college committee collaborations. Whether you're a student, faculty member, or event organizer, Aarambh simplifies planning, coordination, and execution of academic and extracurricular activities.
+A platform for event updates, including seminars, webinars, NCC camps, NSS camps, and more. Developed using HTML, CSS, JavaScript, PHP, and MySQL, hosted locally via XAMPP.
 
-🚀 Key Features:
-Event Management: Plan and schedule seminars, webinars, and conferences with ease.
-NCC & NSS Camp Coordination: Organize and manage national service and cadet training camps.
-College Committees Network: Connect and collaborate with different college committees.
-Registration & Participation: Seamless attendee registration and participation tracking.
-Resource Sharing: Upload and access event-related materials and documents.
-Notifications & Updates: Stay informed with real-time event alerts and announcements.
+🚀 Features
 
-🎯 Our Mission:
-Aarambh aims to bridge the gap between institutions, students, and organizers, fostering collaboration and knowledge-sharing through well-structured events and committee interactions.
+->Event Listings – View upcoming and past events.
 
-🔗 Get Involved:
-Organize and promote your academic and extracurricular events.
-Collaborate with colleges and student committees for joint initiatives.
-Stay updated on upcoming events and enhance participation.
+->Categories – Separate listings for seminars, webinars, NCC/NSS camps, etc.
 
-Join Aarambh and make event management seamless! 🎤📢
+->User Registration – Register for events and receive notifications.
+
+->Search & Filters – Easily find relevant events.
+
+->Admin Panel – Manage event details and participants.
+
+🛠️ Tech Stack
+
+->Frontend: HTML, CSS, JavaScript
+
+->Backend: PHP
+
+->Database: MySQL
+
+->Server: XAMPP
+
+🔧 Installation
+
+1.Clone the repo:
+git clone https://github.com/reethikaaa/Aaramb.git
+
+2.Start XAMPP and enable Apache & MySQL.
+
+3.Import database.sql into MySQL.
+
+4.Update database credentials in config.php.
+
+5.Open in a browser:
+http://localhost/Aaramb/
